@@ -1,8 +1,25 @@
 import React, { Component } from 'react'
+import { Jumbotron, Button } from 'react-bootstrap'
+import '../Home/Home.css'
 
 class Home extends Component {
-    render(){
-        return(<div><h1>Home</h1></div>);
+    render() {
+
+        return (
+            <React.Fragment>
+                <Jumbotron id="background-img">
+                    <div className="container">
+                        <h1>ERIN AGOBERT</h1>
+                        <h2>SOFTWARE DEVELOPER</h2>
+                        <h4>
+                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Download Resume</Button>
+                        </h4>
+                    </div>
+                </Jumbotron>
+
+
+            </React.Fragment>
+        );
     }
 }
 

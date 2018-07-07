@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Header from './Header/Header'
 import HeaderRoutes from './Header/HeaderRoutes'
+import 'typeface-poppins'
+import 'typeface-special-elite'
+import 'typeface-dosis'
 import './App.css';
 
 // Import Route components here:
@@ -16,7 +19,6 @@ class App extends Component {
         <div className="App">
           <Header />
           <HeaderRoutes />
-
         </div>
         
       </Router>

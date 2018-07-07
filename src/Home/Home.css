@@ -1,0 +1,45 @@
+.jumbotron > .container {
+    border-radius: 0;
+    background-color: transparent;
+    color: whitesmoke;
+    margin-top: 270px;
+}
+
+.container > h1 {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 90px;
+    line-height: .9;
+    text-shadow: 2px 2px 4px #000000;
+} 
+
+.container > h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    line-height: .8;
+    text-shadow: 2px 2px 4px #000000;
+} 
+
+.container > h4 {
+    font-family: 'Poppin', sans-serif;
+    /* font-size: 45px; */
+}
+
+#background-img{
+    background-image: url("../Assets/images/arnel-hasanovic-375269-unsplash.jpg");
+    height: 1000px;
+    width: auto;
+    background-size: cover;
+    border-radius: 0;
+    border: 15px solid #FF3399;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#resume-btn{
+    background-color: #FF3399;
+    color: white;
+    border-radius: 0;
+    border: 2px solid white;
+    padding: 20px;
+    margin-top: 15px;
+}
