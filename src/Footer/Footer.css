@@ -1,0 +1,53 @@
+ /* Social Media Link Styling */
+
+ .rounded-circle {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: #FF3399;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: -1px 2px 29px -3px rgba(0, 0, 0, 0.705);
+}
+
+.social-link:hover {
+    background-color: #155d74;
+    text-decoration: none;
+  }
+
+#social-link {
+   padding: 0;
+  }
+
+  .icon{
+      color: white;
+      font-size: 40px;
+      padding: 4px;
+  }
+
+  /* Footer Styling */
+  #footer{
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#footer > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .container > ul,
+#footer .container > p {
+    display: flex;
+}

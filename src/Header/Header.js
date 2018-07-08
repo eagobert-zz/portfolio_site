@@ -11,7 +11,7 @@ class Header extends Component {
                 <Navbar id="nav-container">
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <Link to="/">Erin Agobert</Link>
+                            <Link to="/"><span>E</span>RIN <span>A</span>GOBERT</Link>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>

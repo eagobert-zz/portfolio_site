@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Header from './Header/Header'
 import HeaderRoutes from './Header/HeaderRoutes'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Footer from './Footer/Footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faLinkedinIn, faGithubAlt, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import 'typeface-poppins'
 import 'typeface-special-elite'
 import 'typeface-dosis'
 import './App.css';
 
-// Import Route components here:
-import {
-  BrowserRouter as Router
-} from 'react-router-dom'
-
+library.add(fab,faLinkedinIn, faGithubAlt, faTwitter)
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <HeaderRoutes />
+          <Footer />
         </div>
         
       </Router>
