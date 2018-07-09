@@ -24,6 +24,7 @@
     height: 1000px;
     width: auto;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 0;
     border: 15px solid #FF3399;
     margin-left: 70px;
