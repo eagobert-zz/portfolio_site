@@ -20,13 +20,16 @@
 }
 
 #background-img{
-    background-image: url("../Assets/images/arnel-hasanovic-375269-unsplash.jpg");
+    background-image: url("../Assets/images/chris-barbalis-348804-unsplash.jpg");
     height: 1000px;
     width: auto;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0;
-    border: 15px solid #FF3399;
+    border-left: 15px solid #FF3399;
+    border-top: 15px solid purple;
+    border-right: 15px solid navy;
+    border-bottom: 15px solid orange;
     margin-left: 70px;
     margin-right: 70px;
 }
