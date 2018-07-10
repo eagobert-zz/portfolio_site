@@ -12,7 +12,7 @@ class Home extends Component {
                         <h1>ERIN AGOBERT</h1>
                         <h2>SOFTWARE DEVELOPER</h2>
                         <h4>
-                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Download Resume</Button>
+                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button>
                         </h4>
                     </div>
                 </Jumbotron>
