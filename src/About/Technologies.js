@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 class Technologies extends Component {
 
     constructor(props){
         super(props)
         this.state = {
-            tech: [
+            technologies: [
                 {url: 'https://firebasestorage.googleapis.com/v0/b/personal-site-82611.appspot.com/o/Technologies%2FAngular.png?alt=media&token=7b4fe120-746f-46c5-a117-915ddd880084', name: 'Angular 5'},
                 {url: 'https://firebasestorage.googleapis.com/v0/b/personal-site-82611.appspot.com/o/Technologies%2Fbrowserify.png?alt=media&token=513158d3-28ca-4251-a27e-75efd837e70b', name: 'Browserify'},
                 {url: 'https://firebasestorage.googleapis.com/v0/b/personal-site-82611.appspot.com/o/Technologies%2FAngularJs.png?alt=media&token=7ed143ec-2927-4398-b97e-507e87df0cba', name: 'AngularJs'},
@@ -24,13 +25,15 @@ class Technologies extends Component {
     render(){
         return(
             <React.Fragment>
-                <div class="container">
-                    <div class="row">
-                         {/* <div>
-                             <img src="{{tech.url}}" />
-                        </div> */}
-                    </div>
-                </div>
+                <Grid class="container">
+                    <Row class="row">
+                        {this.state.technologies.map(tech => {
+                           return <Col>
+                                <img src={tech.url} alt=""/>
+                            </Col>
+                        })}
+                    </Row>
+                </Grid>
             </React.Fragment>
         )
     }
