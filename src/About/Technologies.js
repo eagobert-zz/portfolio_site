@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 
 class Technologies extends Component {
 
@@ -24,16 +24,12 @@ class Technologies extends Component {
     }
     render(){
         return(
-            <React.Fragment>
-                <Grid class="container">
-                    <Row class="row">
+            <React.Fragment>               
                         {this.state.technologies.map(tech => {
-                           return <Col>
+                           return <Col sm={3} key={tech.name}>
                                 <img src={tech.url} alt=""/>
                             </Col>
                         })}
-                    </Row>
-                </Grid>
             </React.Fragment>
         )
     }

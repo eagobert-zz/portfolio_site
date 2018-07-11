@@ -9,20 +9,16 @@ class About extends Component{
         return(
             <React.Fragment>
             <Jumbotron id="background-about">
-                <div className="container">
-                    <Grid>
-                        <Row>
-                        <Col id="about">
-                            <h2 >Hello!  I am Erin Agobert.<br/>A software developer based in Nashville, Tennessee.<br/>I design and develop experiences that make peoples' lives (simple, easy, great).<br/>Take a look at what I know <FontAwesomeIcon className="about-icon" icon="arrow-circle-down"/>: </h2>   
+                <Grid className="grid">
+                    <Row className="row">
+                        <Col sm={12} id="about">
+                            <h2>Hello!  I am Erin Agobert.A software developer based in Nashville, Tennessee.I design and develop experiences that make peoples' lives (simple, easy, great).Take a look at what I know <FontAwesomeIcon className="about-icon" icon="arrow-circle-down"/>: </h2>   
                         </Col>
-                        <Col id="technologies">
+                        <Col sm={12} id="technologies">
                             <Technologies />
-                        </Col>
-                        </Row>
-                    </Grid>
-
-                    
-                </div>
+                        </Col> 
+                    </Row>
+                </Grid>
             </Jumbotron>
         </React.Fragment>
         )

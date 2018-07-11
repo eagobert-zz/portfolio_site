@@ -22,20 +22,35 @@
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    padding-left: 50px;
+   
 }
 
+#background-about > .grid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#technologies{
+    /* width: 1471px; */
+    padding: 0;
+}
 #about > h2 {
     font-family: 'Special Elite', sans-serif;
     line-height: 2.0;
     text-shadow: none;
     color: purple;
     text-align: left;
-    width: 1471px;
+    /* width: 1471px; */
 
 }
 
 h2 > .about-icon {
     color: #FF3399;
     font-size: 50px;
+}
+
+.col-sm-3 > img {
+    width: 100%;
+    height: 100%;
 }
