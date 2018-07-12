@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Navbar, Nav, NavItem } from 'reactstrap' 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { Navbar, Nav, NavItem } from 'reactstrap' 
 import '../Footer/Footer.css'
 
 class Footer extends Component {
