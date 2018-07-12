@@ -31,6 +31,7 @@
 #brand > h2 {
     font-size: 25px;
     letter-spacing: 2px;
+    color: slategrey;
 }
 
 h2 > span {
