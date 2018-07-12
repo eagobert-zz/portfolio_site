@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Jumbotron, Button } from 'react-bootstrap'
+import { Jumbotron, } from 'react-bootstrap'
 import '../Home/Home.css'
 
 class Home extends Component {
@@ -12,7 +12,7 @@ class Home extends Component {
                         <h1>ERIN AGOBERT</h1>
                         <h2>SOFTWARE DEVELOPER</h2>
                         <h4>
-                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button>
+                            {/* <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button> */}
                         </h4>
                     </div>
                 </Jumbotron>

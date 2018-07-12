@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Jumbotron, Grid, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Technologies from '../About/Technologies'
+// import Technologies from '../About/Technologies'
 import '../About/About.css'
 
 class About extends Component{
@@ -15,7 +15,7 @@ class About extends Component{
                             <h2>Hello!  I am Erin Agobert.A software developer based in Nashville, Tennessee.I design and develop experiences that make peoples' lives (simple, easy, great).Take a look at what I know <FontAwesomeIcon className="about-icon" icon="arrow-circle-down"/>: </h2>   
                         </Col>
                         <Col sm={12} id="technologies">
-                            <Technologies />
+                            {/* <Technologies /> */}
                         </Col> 
                     </Row>
                 </Grid>
