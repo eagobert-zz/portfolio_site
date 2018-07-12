@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Navbar, Nav, NavItem } from 'react-bootstrap' 
+import { Navbar, Nav, NavItem } from 'reactstrap' 
 import '../Footer/Footer.css'
 
 class Footer extends Component {
@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <React.Fragment>
 
-                <Navbar id="footer">
+                {/* <Navbar id="footer">
                         <Nav className="">
                             <NavItem id="social-link" className="rounded-circle" href="https://www.linkedin.com/in/eagobert/">
                                     <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
@@ -21,9 +21,10 @@ class Footer extends Component {
                             </NavItem>
                         </Nav>
                         <Navbar.Text className="">Copyright &copy; Erin Agobert 2018</Navbar.Text>
-                </Navbar>
+                </Navbar> */}
 
-            </React.Fragment>)
+            </React.Fragment>
+            )
     }
 }
 export default Footer
