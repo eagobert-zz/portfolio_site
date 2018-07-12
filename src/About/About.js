@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Jumbotron, Grid, Row, Col } from 'react-bootstrap'
+import { Jumbotron, Grid, Row, Col } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import Technologies from '../About/Technologies'
 import '../About/About.css'
