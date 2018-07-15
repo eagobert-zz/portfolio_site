@@ -6,6 +6,7 @@ import Footer from './Footer/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faLinkedinIn, faGithubAlt, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faArrowCircleDown} from '@fortawesome/free-solid-svg-icons'
+import { Container, Row, Col } from 'reactstrap'
 import 'typeface-poppins'
 import 'typeface-special-elite'
 import 'typeface-dosis'
@@ -17,12 +18,23 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <Header />
-          <HeaderRoutes />
-          <Footer />
-        </div>
-        
+        <Container id="App">
+          <Row>
+            <Col>
+              <Header />
+            </Col>
+          </Row>
+          <Row>
+            <Container>
+                <HeaderRoutes />
+            </Container>
+          </Row>
+          <Row>
+            <Col>
+              <Footer />
+            </Col>
+          </Row>
+        </Container>
       </Router>
     );
   }
