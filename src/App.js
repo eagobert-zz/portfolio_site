@@ -24,10 +24,8 @@ class App extends Component {
               <Header />
             </Col>
           </Row>
-          <Row>
-            <Container>
-                <HeaderRoutes />
-            </Container>
+          <Row id="background-img">
+            <HeaderRoutes />
           </Row>
           <Row>
             <Col>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { Navbar, Nav, NavItem } from 'reactstrap' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Container, Navbar, Nav, NavItem, NavLink } from 'reactstrap' 
 import '../Footer/Footer.css'
 
 class Footer extends Component {
@@ -8,20 +8,29 @@ class Footer extends Component {
         return (
             <React.Fragment>
 
-                {/* <Navbar id="footer">
+                <Navbar id="footer">
+                        <Container>
+
                         <Nav className="">
-                            <NavItem id="social-link" className="rounded-circle" href="https://www.linkedin.com/in/eagobert/">
+                            <NavItem>
+                                    <NavLink id="social-link" className="rounded-circle" href="https://www.linkedin.com/in/eagobert/">
                                     <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
+                                    </NavLink>
                             </NavItem>
-                            <NavItem id="social-link" className="rounded-circle" href="https://twitter.com/ErinAgobert">
+                            <NavItem> 
+                                    <NavLink id="social-link" className="rounded-circle" href="https://twitter.com/ErinAgobert">
                                     <FontAwesomeIcon className="icon" icon={['fab', 'twitter']}/>
+                                    </NavLink>
                             </NavItem>
-                            <NavItem id="social-link" className="rounded-circle" href="https://github.com/eagobert">
+                            <NavItem>
+                                    <NavLink id="social-link" className="rounded-circle" href="https://github.com/eagobert">
                                     <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']}/>
+                                    </NavLink>
                             </NavItem>
                         </Nav>
-                        <Navbar.Text className="">Copyright &copy; Erin Agobert 2018</Navbar.Text>
-                </Navbar> */}
+                        <p className="">Copyright &copy; Erin Agobert 2018</p>
+                        </Container>
+                </Navbar>
 
             </React.Fragment>
             )

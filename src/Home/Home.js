@@ -7,15 +7,15 @@ class Home extends Component {
 
         return (
             <React.Fragment>
-                <Jumbotron id="background-img">
+                {/* <Jumbotron id="background-img">
                     <div className="container">
                         <h1>ERIN AGOBERT</h1>
                         <h2>SOFTWARE DEVELOPER</h2>
                         <h4>
-                            {/* <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button> */}
+                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button>
                         </h4>
                     </div>
-                </Jumbotron>
+                </Jumbotron> */}
 
 
             </React.Fragment>

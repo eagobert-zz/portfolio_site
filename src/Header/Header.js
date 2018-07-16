@@ -39,11 +39,16 @@ class Header extends Component {
                         <Nav id="nav-links" navbar>
                             <NavItem>
                                 <NavLink href="/">Home</NavLink></NavItem>
-                            <NavItem><NavLink href="/about">About</NavLink></NavItem>
-                            <NavItem><NavLink href="/technologies">Technologies</NavLink></NavItem>
-                            <NavItem><NavLink href="/portfolio">Portfolio</NavLink></NavItem>
-                            <NavItem><NavLink href="/blog">Blog</NavLink></NavItem>
-                            <NavItem><NavLink href="/contact">Contact</NavLink></NavItem>
+                            <NavItem>
+                                <NavLink href="/about">About</NavLink></NavItem>
+                            <NavItem>
+                                <NavLink href="/technologies">Technologies</NavLink></NavItem>
+                            <NavItem>
+                                <NavLink href="/portfolio">Portfolio</NavLink></NavItem>
+                            <NavItem>
+                                <NavLink href="/blog">Blog</NavLink></NavItem>
+                            <NavItem>
+                                <NavLink href="/contact">Contact</NavLink></NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>

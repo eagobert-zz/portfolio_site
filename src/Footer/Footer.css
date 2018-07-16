@@ -1,8 +1,8 @@
  /* Social Media Link Styling */
 
  .rounded-circle {
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 100%;
     background-color: #FF3399;
     margin: 5px;
@@ -11,14 +11,14 @@
     box-shadow: -1px 2px 29px -3px rgba(0, 0, 0, 0.705);
 }
 
-.social-link:hover {
+/* .social-link:hover {
     background-color: #155d74;
     text-decoration: none;
-  }
+  } */
 
-#social-link {
+/* #social-link {
    padding: 0;
-  }
+  } */
 
   .icon{
       color: white;
