@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
-import { Navbar, NavbarBrand, Nav, Collapse, NavbarToggler, NavItem, NavLink } from 'reactstrap'
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap'
 import '../Header/Header.css'
 
 
@@ -34,8 +34,8 @@ class Header extends Component {
                                 <span>A</span>GOBERT
                             </h2>
                         </NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNavbar} id="menu-btn" className="mr-2" />
-                    <Collapse isOpen={!this.state.collapsed} navbar>
+                        {/* <NavbarToggler onClick={this.toggleNavbar} id="menu-btn" className="mr-2" /> */}
+                    {/* <Collapse isOpen={!this.state.collapsed} navbar> */}
                         <Nav id="nav-links" navbar>
                             <NavItem>
                                 <NavLink href="/">Home</NavLink></NavItem>
@@ -50,7 +50,7 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink href="/contact">Contact</NavLink></NavItem>
                         </Nav>
-                    </Collapse>
+                    {/* </Collapse> */}
                 </Navbar>
             </React.Fragment>
         );

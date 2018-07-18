@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Jumbotron, } from 'reactstrap'
+import { Button, Col } from 'reactstrap'
 import '../Home/Home.css'
 
 class Home extends Component {
@@ -7,15 +7,15 @@ class Home extends Component {
 
         return (
             <React.Fragment>
-                {/* <Jumbotron id="background-img">
+                <Col id="container_home">
                     <div className="container">
                         <h1>ERIN AGOBERT</h1>
                         <h2>SOFTWARE DEVELOPER</h2>
                         <h4>
-                            <Button id="resume-btn" bsSize="large" bsStyle="custom">Learn More</Button>
+                            <Button id="aboutme-btn" size="lg" >ABOUT ME</Button>
                         </h4>
                     </div>
-                </Jumbotron> */}
+                </Col>
 
 
             </React.Fragment>

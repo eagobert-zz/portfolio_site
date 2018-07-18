@@ -1,8 +1,15 @@
-.jumbotron > .container {
-    border-radius: 0;
+#container_home{
+    background-image: url("../Assets/images/chris-barbalis-348804-unsplash.jpg");
+    height: 970px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container_home > .container {
     background-color: transparent;
     color: whitesmoke;
-    margin-top: 270px;
+    margin-top: 300px;
 }
 
 .container > h1 {
@@ -19,27 +26,12 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* #background-img{
-    background-image: url("../Assets/images/chris-barbalis-348804-unsplash.jpg");
-    height: 1000px;
-    width: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0;
-    border-left: 15px solid #FF3399;
-    border-top: 15px solid purple;
-    border-right: 15px solid #3F26BF;
-    border-bottom: 15px solid #FF9966;
-    margin-left: 70px;
-    margin-right: 70px;
-} */
-
-#resume-btn{
+#aboutme-btn{
     background-color: #FF3399;
     color: white;
     border-radius: 0;
     border: 2px solid white;
-    padding: 20px;
-    margin-top: 15px;
+    padding: 20px 50px 20px 50px;
+    margin-top: 55px;
     /* box-shadow: -1px 2px 29px -3px rgba(0,0,0,0.75); */
 }

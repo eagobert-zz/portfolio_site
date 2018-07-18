@@ -1,5 +1,7 @@
+/* Nav container styling */
 #nav-container{
-    /* display: flex; */
+    display: flex;
+    align-items: baseline;
     background-image: none;
     border: none;
     border-radius: 0;
@@ -15,10 +17,7 @@
     width: auto;
 }
 
-#nav-links{
-    margin-right: 30px;
-}
-
+/* Logo Styling */
 #brand {
     display: flex;
     flex-direction: row;
@@ -40,6 +39,20 @@ h2 > span {
     color: #FF3399;
 }
 
+/* Navigation Link Styling */
+#nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-links > li > a{
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: slategrey;
+}
+
+/* Menu Button Styling */
 #menu-btn{
     color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.1);
