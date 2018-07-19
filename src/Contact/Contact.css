@@ -1,0 +1,47 @@
+#container_contact{
+    background-image: url("../Assets/images/peter-secan-422909-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+#container_contactform{
+    text-align: left;
+    color: whitesmoke;
+}
+
+#contactform_main{
+    padding: 0;
+}
+
+.contactform_header{
+    color: whitesmoke;
+    padding-bottom: 25px;
+}
+
+/* #container_contact > .container {
+
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    margin: 180px 20px 0px 263px;
+} */
+
+#contactform_top{
+    height: 249px;
+    background-color: #FF3399;
+    padding: 0;
+}
+#contactform_middle{
+    /* height: 255px; */
+    background-color:#FF9966;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#contactform_bottom{
+    height: 250px;
+    background-color: purple;
+    padding: 0;
+}
