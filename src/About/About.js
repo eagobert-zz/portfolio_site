@@ -4,23 +4,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import Technologies from '../About/Technologies'
 import '../About/About.css'
 
-class About extends Component{
-    render(){
-        return(
+class About extends Component {
+    render() {
+        return (
             <React.Fragment>
-            <Jumbotron id="background-about">
-                <div className="grid">
-                    <div className="row">
-                        <div sm={12} id="about">
-                            <h2>Hello!  I am Erin Agobert.A software developer based in Nashville, Tennessee.I design and develop experiences that make peoples' lives (simple, easy, great).Take a look at what I know <FontAwesomeIcon className="about-icon" icon="arrow-circle-down"/>: </h2>   
-                        </div>
-                        <div sm={12} id="technologies">
-                            {/* <Technologies /> */}
-                        </div> 
+                {/* <!-- About --> */}
+                <section class="" id="about">
+
+                    {/* <!-- empty divider --> */}
+                    <nav class="navbar navbar-light bg-light">
+                        <span class="p-4"></span>
+                    </nav>
+                    {/* <!-- About Me Header --> */}
+                    <div class="row pl-5">
+                        <h1 class="col text-muted pl-4">About Me</h1>
                     </div>
-                </div>
-            </Jumbotron>
-        </React.Fragment>
+
+                    <div class="container">
+                        <div class="row">
+
+                            {/* <!-- Left Side --> */}
+                            <div class="col-5">
+                                <div class="col-6 mx-auto text-center">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/personal-site-82611.appspot.com/o/Profile_Photo%2FProfessional_Cropped.jpg?alt=media&token=ba6bd063-ab1f-46ed-a6ed-dd27964e7d6f" class="img-thumbnail rounded-circle" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </React.Fragment>
         )
     }
 }

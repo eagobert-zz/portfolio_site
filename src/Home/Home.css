@@ -1,37 +1,38 @@
-#container_home{
-    background-image: url("../Assets/images/chris-barbalis-348804-unsplash.jpg");
-    /* height: 970px;
-    width: auto; */
-    background-size: cover;
-    background-repeat: no-repeat;
+/* Header Styling */
+.text-muted{
+    font-family: 'Special Elite', cursive;
+    padding: 15px
 }
 
-#container_home > .container {
-    background-color: transparent;
-    color: whitesmoke;
-    margin-top: 300px;
+.display-4{
+    font-family: 'Exo', sans-serif;
+}
+ /* Social Media Link Styling */
+.rounded-circle {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+
 }
 
-.container > h1 {
-    font-family: 'Special Elite', sans-serif;
-    font-size: 90px;
-    line-height: .9;
-    text-shadow: 2px 2px 4px #000000;
-}
+.social-link:hover {
+    background-color: #155d74;
+    text-decoration: none;
+  }
+  
+  a {
+    color: #1D809F;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #155d74;
+  }
 
-.container > h2 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 45px;
-    line-height: .8;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-#aboutme-btn{
-    background-color: #FF3399;
-    color: white;
-    border-radius: 0;
-    border: 2px solid white;
-    padding: 20px 50px 20px 50px;
-    margin-top: 55px;
-    box-shadow: -1px 2px 29px -3px rgba(0,0,0,0.75);
-}
+  i{
+      color: white;
+  }

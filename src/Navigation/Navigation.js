@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-// import { Link } from 'react-router-dom'
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap'
-import '../Header/Header.css'
+import '../Navigation/Navigation.css'
 
 
-class Header extends Component {
+class Navigation extends Component {
 
     constructor(props){
         super(props);
@@ -56,4 +54,4 @@ class Header extends Component {
         );
     }
 }
-export default Header
+export default Navigation
