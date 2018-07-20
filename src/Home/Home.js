@@ -56,7 +56,7 @@ class Home extends Component {
                         </ul>
                         {/* <!-- Homepage Image --> */}
                         <div class="col-9 container-fluid">
-                            <img src="./img/chris-barbalis-348804.jpg" class="img-fluid" />
+                            <img src="../Assets/images/chris-barbalis-348804-unsplash.jpg" class="img-fluid" />
                         </div>
                     </div>
 

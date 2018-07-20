@@ -1,39 +1,41 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Container, Navbar, Nav, NavItem, NavLink } from 'reactstrap' 
 import '../Footer/Footer.css'
 
 class Footer extends Component {
-    render() {
-        return (
-            <React.Fragment>
+        render() {
+                return (
+                        <React.Fragment>
+                                {/* <!-- Footer --> */}
+                                <footer class="footer text-center">
+                                        <div class="container pt-4">
+                                                <ul class="list-inline mb-5">
+                                                        <li class="list-inline-item">
+                                                                <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/eagobert/">
+                                                                        <i class="fab fa-linkedin-in"></i>
+                                                                </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                                <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/ErinAgobert">
+                                                                        <i class="fab fa-twitter"></i>
+                                                                </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                                <a class="social-link rounded-circle text-white" href="https://github.com/eagobert">
+                                                                        <i class="fab fa-github-alt"></i>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                                <p class="text-muted small mb-0">Copyright &copy; Erin Agobert 2018</p>
+                                        </div>
+                                </footer>
 
-                <Navbar id="footer">
-                        <Container>
-
-                        <Nav className="">
-                            <NavItem>
-                                    <NavLink id="social-link" className="rounded-circle" href="https://www.linkedin.com/in/eagobert/">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
-                                    </NavLink>
-                            </NavItem>
-                            <NavItem> 
-                                    <NavLink id="social-link" className="rounded-circle" href="https://twitter.com/ErinAgobert">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'twitter']}/>
-                                    </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                    <NavLink id="social-link" className="rounded-circle" href="https://github.com/eagobert">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']}/>
-                                    </NavLink>
-                            </NavItem>
-                        </Nav>
-                        <p className="">Copyright &copy; Erin Agobert 2018</p>
-                        </Container>
-                </Navbar>
-
-            </React.Fragment>
-            )
-    }
+                                {/* <!-- Scroll to Top Button--> */}
+                                <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+                                        <i class="fa fa-angle-up"></i>
+                                </a>
+                        </React.Fragment>
+                )
+        }
 }
 export default Footer

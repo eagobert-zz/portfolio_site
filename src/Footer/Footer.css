@@ -1,53 +1,29 @@
  /* Social Media Link Styling */
-
  .rounded-circle {
+    display: block;
     height: 3rem;
     width: 3rem;
-    border-radius: 100%;
-    background-color: #FF3399;
-    margin: 5px;
-    padding: 5px;
+    line-height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
     transition: background-color 0.15s ease-in-out;
-    box-shadow: -1px 2px 29px -3px rgba(0, 0, 0, 0.705);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+
 }
 
-/* .social-link:hover {
+.social-link:hover {
     background-color: #155d74;
     text-decoration: none;
-  } */
-
-/* #social-link {
-   padding: 0;
-  } */
-
-  .icon{
-      color: white;
-      font-size: 40px;
-      padding: 4px;
+  }
+  
+  a {
+    color: #1D809F;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #155d74;
   }
 
-  /* Footer Styling */
-  #footer{
-    background-image: none;
-    border: none;
-    border-radius: 0;
-    background-color: white;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    /* padding-top: 10px; */
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-    box-shadow: none;
-}
-
-#footer > .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#footer .container > ul,
-#footer .container > p {
-    display: flex;
-}
+  i{
+      color: white;
+  }
