@@ -12,17 +12,17 @@ class Footer extends Component {
                                 <ul className="list-inline mb-5">
                                         <li className="list-inline-item">
                                                 <a className="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/eagobert/">
-                                                        <i className="fab fa-linkedin-in"></i>
+                                                <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
                                                 </a>
                                         </li>
                                         <li className="list-inline-item">
                                                 <a className="social-link rounded-circle text-white mr-3" href="https://twitter.com/ErinAgobert">
-                                                        <i className="fab fa-twitter"></i>
+                                                <FontAwesomeIcon className="icon" icon={['fab', 'twitter']}/>
                                                 </a>
                                         </li>
                                         <li className="list-inline-item">
                                                 <a className="social-link rounded-circle text-white" href="https://github.com/eagobert">
-                                                        <i className="fab fa-github-alt"></i>
+                                                <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']}/>
                                                 </a>
                                         </li>
                                 </ul>

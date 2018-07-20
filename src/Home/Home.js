@@ -16,22 +16,23 @@ class Home extends Component {
                             <div className="col-12 h3 text-muted pb-4">Web Developer | Designer | Data Nerd </div>
                         </div>
 
-                        <!-- Social Media Links -->
+                        {/* <!-- Social Media Links --> */}
     <div className="col-4">
+    
                             <ul className="pt-4 pr-4 text-right list-inline mb-5">
                                 <li className="list-inline-item">
                                     <a className="text-center social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/eagobert/">
-                                        <FontAwesomeIcon icon="fab fa-linkedin-in"/>
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
                                     <a className="text-center social-link rounded-circle text-white mr-3" href="https://twitter.com/ErinAgobert">
-                                        <FontAwesomeIcon icon="fab fa-twitter"/>
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'twitter']}/>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
                                     <a className="text-center social-link rounded-circle text-white" href="https://github.com/eagobert">
-                                        <FontAwesomeIcon icon="fab fa-github-alt"/>
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']}/>
                                     </a>
                                 </li>
                             </ul>
