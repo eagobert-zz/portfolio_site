@@ -4,52 +4,36 @@ import '../Navigation/Navigation.css'
 
 class Navigation extends Component {
 
-    constructor(props){
-        super(props);
-
-        // this.toggleNavbar = this.toggleNavbar.bind(this);
-
-        this.state = {
-          collapsed: true
-        };
-      }
-    
-    toggleNavbar = function(){
-        this.setState({
-          collapsed: !this.state.collapsed
-        });
-      }.bind(this)
-
     render() {
         return (
             <React.Fragment>
-                <Navbar id="nav-container">
-                        <NavbarBrand href="/" id="brand" className="mr-auto">
-                            <h2>
-                                <span>E</span>RIN 
-                            </h2>
-                            <h2>
-                                <span>A</span>GOBERT
-                            </h2>
-                        </NavbarBrand>
-                        {/* <NavbarToggler onClick={this.toggleNavbar} id="menu-btn" className="mr-2" /> */}
-                    {/* <Collapse isOpen={!this.state.collapsed} navbar> */}
-                        <Nav id="nav-links" navbar>
-                            <NavItem>
-                                <NavLink href="/">Home</NavLink></NavItem>
-                            <NavItem>
-                                <NavLink href="/about">About</NavLink></NavItem>
-                            <NavItem>
-                                <NavLink href="/technologies">Technologies</NavLink></NavItem>
-                            <NavItem>
-                                <NavLink href="/portfolio">Portfolio</NavLink></NavItem>
-                            <NavItem>
-                                <NavLink href="/blog">Blog</NavLink></NavItem>
-                            <NavItem>
-                                <NavLink href="/contact">Contact</NavLink></NavItem>
-                        </Nav>
-                    {/* </Collapse> */}
-                </Navbar>
+                {/* <!-- Navigation --> */}
+<a className="menu-toggle rounded" href="#" ng-click="menuController()">
+                    <i className="fa fa-bars"></i>
+                </a>
+                <nav id="sidebar-wrapper">
+                    <ul className="sidebar-nav">
+                        <li className="sidebar-brand">
+                            <a className="js-scroll-trigger" href="#page-top">Erin Agobert</a>
+                        </li>
+                        <li className="sidebar-nav-item">
+                            <a className="js-scroll-trigger" href="#page-top">Home</a>
+                        </li>
+                        <li className="sidebar-nav-item">
+                            <a className="js-scroll-trigger" href="#about">About Me</a>
+                        </li>
+                        <li className="sidebar-nav-item">
+                            <a className="js-scroll-trigger" href="#services">Technologies</a>
+                        </li>
+                        <li className="sidebar-nav-item">
+                            <a className="js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li className="sidebar-nav-item">
+                            <a className="js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </React.Fragment>
         );
     }

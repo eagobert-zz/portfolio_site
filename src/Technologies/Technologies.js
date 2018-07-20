@@ -24,24 +24,24 @@ class Technologies extends Component {
     render() {
         return (
             <React.Fragment>
-                <section class="" id="technologies">
+                <section className="" id="technologies">
 
                     {/* <!-- empty divider --> */}
-                    <nav class="navbar navbar-light bg-light">
-                        <span class="p-4"></span>
+                    <nav className="navbar navbar-light bg-light">
+                        <span className="p-4"></span>
                     </nav>
 
                     {/* <!-- Technologies Header --> */}
-                    <div class="row pl-5">
-                        <h1 class="col text-muted pl-4">Technologies</h1>
+                    <div className="row pl-5">
+                        <h1 className="col text-muted pl-4">Technologies</h1>
                     </div>
-                    <div class="container">
-                        <div class="row">
+                    <div className="container">
+                        <div className="row">
 
 
-                            {/* <img class="w-50 rounded align-self-center" src="{{tech.url}}"/> */}
+                            {/* <img className="w-50 rounded align-self-center" src="{{tech.url}}"/> */}
                             {this.state.technologies.map(tech => {
-                                return <div class="p-5 col-3 justify-content-center"><img key={tech.name} className="w-50 rounded align-self-center" src={tech.url} alt="" />
+                                return <div className="p-5 col-3 justify-content-center"><img key={tech.name} className="w-50 rounded align-self-center" src={tech.url} alt="" />
                                 </div>
                             })}
 

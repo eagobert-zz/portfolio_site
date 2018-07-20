@@ -7,60 +7,62 @@ class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-                <Col id="container_contact">
+                {/* <!-- Contact Page --> */}
+                <section id="contact">
+                    {/* <!-- empty divider --> */}
+                    <nav className="navbar navbar-light bg-light">
+                        <span className="p-4"></span>
+                    </nav>
 
-                </Col>
-                <Col id="contactform_main">
-                    <Col id="contactform_top"></Col>
-                    <Col id="contactform_middle">
+                    {/* <!-- Contact Form Header --> */}
+                    <div className="row pl-5">
+                        <h1 className="col text-muted pl-4">Contact Me</h1>
+                    </div>
+
+                    {/* <!-- Begin Form --> */}
+                    <form action="https://formspree.io/eagobert@hotmail.com" method="POST" name="contactForm" className="container">
+
                         <div className="row">
-                            <h1 className="col contactform_header">Contact Me</h1>
+                            <div className="form-group col">
+                                <label for="firstname">First Name * </label>
+                                <input type="text" className="form-control form-control-lg" autocomplete="given-name" placeholder="Please enter your first name." name="firstName" required />
+                            </div>
+
+                            <div className="form-group col">
+                                <label for="lastname">Last Name * </label>
+                                <input type="text" className="form-control form-control-lg" autocomplete="family-name" placeholder="Please enter your last name." name="lastName" required />
+                            </div>
                         </div>
 
-                        <form action="https://formspree.io/eagobert@hotmail.com" method="POST" name="contactForm" id="container_contactform">
+                        <div className="row">
 
-                            <div className="form-row">
-                                <div className="form-group col">
-                                    <label for="firstname">First Name * </label>
-                                    <input type="text" className="form-control form-control" autocomplete="given-name" placeholder="Please enter your first name." name="firstName" required />
-                                </div>
-
-                                <div className="form-group col">
-                                    <label for="lastname">Last Name * </label>
-                                    <input type="text" className="form-control form-control" autocomplete="family-name" placeholder="Please enter your last name." name="lastName" required />
-                                </div>
+                            <div className="form-group col">
+                                <label for="email">Email * </label>
+                                <input type="email" className="form-control form-control-lg" autocomplete="email" id="email" placeholder="Please enter your email address." name="_replyto" required />
                             </div>
 
-                            <div className="form-row">
-                                <div className="form-group col">
-                                    <label for="email">Email * </label>
-                                    <input type="email" className="form-control form-control" autocomplete="email" id="email" placeholder="Please enter your email address." name="_replyto" required />
-                                </div>
-
-                                <div className="form-group col">
-                                    <label for="phone">Phone</label>
-                                    <input type="tel" className="form-control form-control" autocomplete="phone" id="phone" placeholder="Please enter your phone number." name="phone" />
-                                </div>
-                            </div>
-                            <div className="form-row">
-                                <div className="form-group col">
-                                    <label for="textarea">Comments: </label>
-                                    <textarea className="form-control form-control" id="textarea" rows="3" name="comments"></textarea>
-                                </div>
+                            <div className="form-group col">
+                                <label for="phone">Phone</label>
+                                <input type="tel" className="form-control form-control-lg" autocomplete="phone" id="phone" placeholder="Please enter your phone number." name="phone" />
                             </div>
 
-                            <Button type="submit" className="" value="Send">SEND</Button>
+                        </div>
+                        <div className="form-group">
+                            <label for="textarea">Comments: </label>
+                            <textarea className="form-control form-control-lg" id="textarea" rows="3" name="comments"></textarea>
+                        </div>
 
-                            {/* <!-- Insert Formspree.io Captcha --> */}
-                            <input type="text" name="_gotcha" style={{ display: 'none' }} />
+                        <input type="submit" className="btn btn-primary btn-block" value="Send"></input>
 
-                            {/* <!-- Insert Return Page  --> */}
-                            <input type="hidden" name="_next" value="http://127.0.0.1:8080/" />
-                        </form>
-                    </Col>
-                    <Col id="contactform_bottom"></Col>
+                        {/* <!-- Insert Formspree.io Captcha --> */}
+                        <input type="text" name="_gotcha" style="display:none" />
 
-                </Col>
+                        {/* <!-- Insert Return Page  --> */}
+                        <input type="hidden" name="_next" value="http://127.0.0.1:8080/" />
+                    </form>
+
+
+                </section>
             </React.Fragment>
         )
     }
