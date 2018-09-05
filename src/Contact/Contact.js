@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Contact/Contact.css'
-import { Button, Col } from 'reactstrap'
+//import { Button, Col } from 'reactstrap'
 
 class Contact extends Component {
 
@@ -55,7 +55,7 @@ class Contact extends Component {
                         <input type="submit" className="btn btn-primary btn-block" value="Send"></input>
 
                         {/* <!-- Insert Formspree.io Captcha --> */}
-                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="text" name="_gotcha" style={{display:'none'}} />
 
                         {/* <!-- Insert Return Page  --> */}
                         <input type="hidden" name="_next" value="http://127.0.0.1:8080/" />

@@ -8,7 +8,7 @@ class Navigation extends Component {
         return (
             <React.Fragment>
                 {/* <!-- Navigation --> */}
-<a className="menu-toggle rounded" href="#" ng-click="menuController()">
+<a className="menu-toggle rounded" href="" ng-click="menuController()">
                     <i className="fa fa-bars"></i>
                 </a>
                 <nav id="sidebar-wrapper">

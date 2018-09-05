@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { Button, Col } from 'reactstrap'
 import '../Home/Home.css'
+import img from '../Assets/images/chris-barbalis-348804-unsplash.jpg'
 
 class Home extends Component {
     render() {
 
         return (
             <React.Fragment>
-                <header>
                     {/* <!-- Home Header --> */}
                     <div className="row pl-4">
                         <div className="col-8">
@@ -16,28 +15,28 @@ class Home extends Component {
                             <div className="col-12 h3 text-muted pb-4">Web Developer | Designer | Data Nerd </div>
                         </div>
 
-                        {/* <!-- Social Media Links --> */}
-    <div className="col-4">
-    
-                            <ul className="pt-4 pr-4 text-right list-inline mb-5">
-                                <li className="list-inline-item">
-                                    <a className="text-center social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/eagobert/">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']}/>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a className="text-center social-link rounded-circle text-white mr-3" href="https://twitter.com/ErinAgobert">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'twitter']}/>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a className="text-center social-link rounded-circle text-white" href="https://github.com/eagobert">
-                                    <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']}/>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    {/* <!-- Social Media Buttons --> */}
+                    <div className="col-4">
+
+                        <ul className="pt-4 pr-4 text-right list-inline mb-5">
+                            <li className="list-inline-item">
+                                <a className="text-center social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/eagobert/">
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'linkedin-in']} />
+                                </a>
+                            </li>
+                            <li className="list-inline-item">
+                                <a className="text-center social-link rounded-circle text-white mr-3" href="https://twitter.com/ErinAgobert">
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'twitter']} />
+                                </a>
+                            </li>
+                            <li className="list-inline-item">
+                                <a className="text-center social-link rounded-circle text-white" href="https://github.com/eagobert">
+                                    <FontAwesomeIcon className="icon" icon={['fab', 'github-alt']} />
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
                     <div className="row">
 
@@ -58,11 +57,9 @@ class Home extends Component {
                         </ul>
                         {/* <!-- Homepage Image --> */}
                         <div className="col-9 container-fluid">
-                            <img src="../Assets/images/chris-barbalis-348804-unsplash.jpg" className="img-fluid" />
+                            <img src={img} className="img-fluid" alt=""/>
                         </div>
                     </div>
-
-                </header>
             </React.Fragment>
         );
     }
